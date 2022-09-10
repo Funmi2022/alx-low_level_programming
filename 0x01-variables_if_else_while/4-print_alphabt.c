@@ -1,27 +1,34 @@
 #include <stdio.h>
 
 /**
- * main - main block*
- * Description: Get a random number and check its last digit, compare it with 5
+ * main - print if the number is postive, zero, or negative
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negative
  * Return: 0
  */
 
 int main(void)
 
 {
-		char c = 'a';
 
-			while (c <= 'z')
+char ch;
 
-					{
-						if (c != 'e' && c != 'q')											{						putchar(c);
+for (ch = 'a' ; ch <= 'z' ; ch++)
 
-																	}
-						c++;
-											}
+{
 
-				putchar('\n');
+if (ch != 'e' && ch != 'q')
 
-					return (0);
+{
+
+putchar(ch);
+
+}
+
+}
+
+putchar('\n');
+
+return (0);
 
 }

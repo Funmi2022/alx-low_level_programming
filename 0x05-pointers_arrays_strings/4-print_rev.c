@@ -15,20 +15,28 @@ void print_rev(char *s)
 	while (len--)
 		putchar(*(s + len));
 	putchar(10);
-}
-[A[A[C[C[C[C[C[C[C[C[C[C[[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[B[C[C[C[C[C[C[C[C[C[C[C[C[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[[A[[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cint print_rev(char *s)
-{
-        int i = 0;
+}[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[[C[3~[3~[3~[D[3~[3~[D[B[B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci--)[B[C[C[C[C[C[C[C[C[C[C[C[ i = str(s);[B[B[B[B[B[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[A[C
+[A[[A[A[A[B[B[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[[A[C[C[C[C[C[C[C[C[[A[C[C[C[C[C[C[C[C[C[C[[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[C[A[C[C[C[C[C[C[C[C[C[C[[A[A[B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[[A[[A[A[C[C[C[C[C[C[C[C[C[[A[C[C[C[C[C[C[C[C[C[C[C[C[[A[C[C[C[C[C[C[C[C[C[C[C[C#include "main.h"
 
-        while (s[i] != '\0')
-        {
-                i++;
-        }
-        i--;
-        while (i >= 0)
-        {
-                _putchar(s[i]);
-                i--;
-        }
-        _putchar('\n');
+/**
+ * print_rev - prints string beckwards
+ * @s: string
+ * Return: void
+ */
+
+void print_rev(char *s)
+{
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	i--;
+	while (i >= 0)
+	{
+		_putchar(s[i]);
+		i--;
+	}
+	_putchar('\n');
 }

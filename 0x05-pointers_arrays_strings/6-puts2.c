@@ -1,26 +1,22 @@
-
-[A[A[A[A[A[B[B[[A[A[A[A[A[B[B[B[B[B[B[B[B[B[B[A[A[A[A[A[B[B[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
-[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
-[A#include "main.h"
+#include <stdio.h>
+#include "main.h"
 
 /**
- * puts2 - print alternating chars of string
+ * puts2 - prints every other character
  * @str: string
- * Return: void
+ *
+ * Return: nothing
  */
 
 void puts2(char *str)
 {
-	int i;
+	int i = 0;
 
-	i = 0;
-	while (str[i] != '\0')
+	while (*(str + i) != '\0')
 	{
 		if (i % 2 == 0)
-			_putchar(str[i]);
+			putchar(*(str + i));
 		i++;
 	}
-	_putchar('\n');
+	putchar(10);
 }

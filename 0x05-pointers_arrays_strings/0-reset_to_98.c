@@ -13,9 +13,9 @@ int main (void)
 
 int n;
 n = 402
-printf("n=%d\n", n)
+printf("n=%d\n", p)
 reser_to_98(&n)
-printf("n=%d\n", n);
+printf("n=%d\n", p);
 return (0);
 
 }

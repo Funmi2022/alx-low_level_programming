@@ -6,14 +6,14 @@
 * @n: parameter
 * Return: Alaways 0
 *\
-
 int main (void)
+
 {
 
 int n;
 n = 98
 printf("%d\n", *n)
-reser_to_98(&n)
+reset_to_98(&n)
 printf("%d\n", *n);
 return (0);
 

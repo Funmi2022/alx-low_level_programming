@@ -11,9 +11,10 @@ int main (void)
 
 int n;
 *n = 98
-printf("%d\n", *p);
+p = *n
+print("%d\n", *p);
 reset_to_98(&n);
-printf("%d\n", *p);
+print("%d\n", *p);
 
 return (0);
 

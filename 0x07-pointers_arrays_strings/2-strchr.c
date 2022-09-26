@@ -18,5 +18,4 @@ return (s + i);
 }
 if (*(s + i) == c)
 return (0)
-[A[C[C[C[C[C[C[C[C[C[C;
 }
